@@ -7,7 +7,7 @@ A equipe utilizou o dataset **Enron Email Network**, modelando-o como um **grafo
 
 ---
 
-##Equipe
+## Equipe
 - Guilherme Abrunheiro de Souza
 - Marcelo Kalsovik Junior
 - Bernardo Batista Cavalcante
