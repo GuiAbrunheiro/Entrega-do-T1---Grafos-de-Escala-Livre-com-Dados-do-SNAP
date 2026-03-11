@@ -105,7 +105,6 @@ Ao longo da análise, foram estudadas métricas como:
 ---
 
 ## Organização do repositório
-Sugestão de organização dos arquivos:
 
 ```bash
 .
