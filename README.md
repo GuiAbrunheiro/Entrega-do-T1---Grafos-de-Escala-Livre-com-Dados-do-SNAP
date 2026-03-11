@@ -7,6 +7,11 @@ A equipe utilizou o dataset **Enron Email Network**, modelando-o como um **grafo
 
 ---
 
+##Equipe
+- Guilherme Abrunheiro de Souza
+- Marcelo Kalsovik Junior
+- Bernardo Batista Cavalcante
+
 ## Dataset utilizado
 - **Nome:** Enron Email Network
 - **Fonte:** SNAP — Stanford Large Network Dataset Collection
