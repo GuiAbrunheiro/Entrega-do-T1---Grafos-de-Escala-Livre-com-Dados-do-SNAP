@@ -434,7 +434,7 @@ def print_scale_free_conclusion(gamma, xmin, ks, n_tail):
 
 
 if __name__ == "__main__":
-    nome_arquivo = "email-Enron.txt.gz"
+    nome_arquivo = "data/email-Enron.txt.gz"
 
     print(f"Abrindo arquivo: {nome_arquivo}...")
     g = load_graph_from_gz(nome_arquivo)
@@ -451,14 +451,12 @@ if __name__ == "__main__":
     plot_degree_distribution_linear(
         degrees_nonzero,
         "Distribuição de Graus P(k) em Escala Linear - Enron",
-        "degree_distribution_linear_enron.png",
     )
 
     # Gráfico 2: distribuição de graus P(k) em escala log-log
     plot_loglog(
         degrees_nonzero,
         "Distribuição de Graus P(k) em Escala Log-Log - Enron",
-        "loglog_enron_undirected.png",
     )
 
     # Ajuste power law
@@ -481,7 +479,6 @@ if __name__ == "__main__":
         ks,
         n_tail,
         "Ajuste de Lei de Potência - Distribuição de Graus Enron",
-        "powerlaw_fit_enron_undirected.png",
     )
 
     # Conclusão inicial
